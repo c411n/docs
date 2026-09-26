@@ -177,3 +177,9 @@ slmgr /dlv
   <tr><td>Windows Server 2008 Datacenter without Hyper-V</td><td>22XQ2-VRXRG-P8D42-K34TD-G3QQC</td></tr>
   <tr><td>Windows Server 2008 for Itanium-Based Systems</td><td>4DWFP-JF3DJ-B7DTH-78FJB-PDRHK</td></tr>
 </table>
+
+REFERENCIAS:
+* https://gist.github.com/judero01col/4eac6f01f3fe64a48924b229c6427f01
+* https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys
+* https://msguides.com/windows-server
+* https://github.com/MicrosoftDocs/windowsserverdocs/blob/main/WindowsServerDocs/get-started/kms-client-activation-keys.md
