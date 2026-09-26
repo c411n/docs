@@ -11,9 +11,9 @@ Funciones clave:
 
 ## Ejemplo de ejecución desde línea de comandos:
 
-´´´
-%WINDIR%\System32\Sysprep\Sysprep.exe /generalize /shutdown /oobe
-´´´
+```cmd
+C:\Windows\System32\Sysprep\Sysprep.exe /generalize /shutdown /oobe
+```
 
 * **/generalize:** elimina datos específicos del equipo.
 * **/shutdown:** apaga el sistema tras el proceso.
