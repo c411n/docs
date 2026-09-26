@@ -5,6 +5,11 @@
 DISM.exe /Online /Get-TargetEditions
 ```
 
+## Para ejecutar la actualización:
+```cmd
+DISM /online /Set-Edition:ServerDatacenter /ProductKey:xxxxx-xxxxx-xxxxx-xxxxx-xxxxx /AcceptEula
+```
+
 ## La activación sucede en tres pasos
 ``` bash
 slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
