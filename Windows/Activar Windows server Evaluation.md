@@ -1,16 +1,17 @@
 # Activar Windows server Evaluation
 
 ##  Para determinar la imagen a la que debe ser actualizado windows usar el siguiente comando
-
+``` bash
 DISM.exe /Online /Get-TargetEditions
+```
 
 ## La activación sucede en tres pasos
-
+``` bash
 slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
 slmgr /skms [server]:[port]
 slmgr /ato
 slmgr /dlv
-
+```
 ## Los servidores KMS públcos disponibles son
 
 * kms8.msguides.com
